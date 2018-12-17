@@ -1,2 +1,2 @@
-laradock-up
-    @cd laradock && docker-compose up -d nginx mysql phpmyadmin redis workspace
+laradock-up:
+	@cd laradock && docker-compose up -d nginx mysql phpmyadmin redis workspace
