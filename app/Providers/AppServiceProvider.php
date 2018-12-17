@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Mozk\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

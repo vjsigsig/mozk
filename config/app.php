@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Tokyo',
 
     /*
     |--------------------------------------------------------------------------
@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Mozk\Providers\AppServiceProvider::class,
+        Mozk\Providers\AuthServiceProvider::class,
+        // Mozk\Providers\BroadcastServiceProvider::class,
+        Mozk\Providers\EventServiceProvider::class,
+        Mozk\Providers\RouteServiceProvider::class,
 
     ],
 
